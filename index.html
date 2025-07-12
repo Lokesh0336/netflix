@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Netflix</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="main-header">
+    <div class="logo">NETFLIX</div>
+    <nav class="main-nav">
+      <a href="#">Home</a>
+      <a href="#">TV Shows</a>
+      <a href="#">Movies</a>
+      <a href="#">My List</a>
+    </nav>
+  </header>
+
+  <section class="hero-banner">
+    <div class="hero-content">
+      <h1>Unlimited Movies, TV Shows and More</h1>
+      <p>Watch anywhere. Cancel anytime.</p>
+      <button class="btn-watch">Watch Now</button>
+    </div>
+  </section>
+
+  <!-- === Trending Now === -->
+  <section class="movie-section">
+    <h2>Trending Now</h2>
+    <div class="movie-row">
+      <!-- Movies 1 to 10 -->
+      <div class="movie-card" onclick="playMovie('https://cdn.telugudub.store/8_Vasantalu_(2025)_Telugu_1080p.mkv')">
+        <img src="https://m.media-amazon.com/images/M/MV5BZDA2YTQyY2YtNGNiMC00MTUwLWI4NDEtZmE3M2JlZmM0NGZmXkEyXkFqcGc@._V1_.jpg">
+        <div class="overlay"><span>▶</span></div>
+      </div>
+
+      <div class="movie-card" onclick="playMovie('https://cdn.telugudub.store/Kuberaa_(2025)_Telugu_HD_720p.mkv')"><img src="https://i.redd.it/378c81ro5cnd1.jpeg"><div class="overlay"><span>▶</span></div></div>
+      <div class="movie-card" onclick="playMovie('https://cdn.telugudub.store/Thunderbolts_(2025)_Eng_1080p.mkv')"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHwW25lnlRJI4kiwVOcIIzSpq95EpDLajAe4WEeZ-vcbyozX-IU4rXlm0UB623pRccoGGz"><div class="overlay"><span>▶</span></div></div>
+      <div class="movie-card" onclick="playMovie('assets/movie4.mp4')"><img src="assets/movie4.jpg"><div class="overlay"><span>▶</span></div></div>
+      <div class="movie-card" onclick="playMovie('assets/movie5.mp4')"><img src="assets/movie5.jpg"><div class="overlay"><span>▶</span></div></div>
+      <div class="movie-card" onclick="playMovie('assets/movie6.mp4')"><img src="assets/movie6.jpg"><div class="overlay"><span>▶</span></div></div>
+      <div class="movie-card" onclick="playMovie('assets/movie7.mp4')"><img src="assets/movie7.jpg"><div class="overlay"><span>▶</span></div></div>
+      <div class="movie-card" onclick="playMovie('assets/movie8.mp4')"><img src="assets/movie8.jpg"><div class="overlay"><span>▶</span></div></div>
+      <div class="movie-card" onclick="playMovie('assets/movie9.mp4')"><img src="assets/movie9.jpg"><div class="overlay"><span>▶</span></div></div>
+      <div class="movie-card" onclick="playMovie('assets/movie10.mp4')"><img src="assets/movie10.jpg"><div class="overlay"><span>▶</span></div></div>
+    </div>
+  </section>
+
+  <!-- === Action === -->
+  <section class="movie-section">
+    <h2>Action</h2>
+    <div class="movie-row">
+      <div class="movie-card" onclick="playMovie('assets/movie11.mp4')"><img src="assets/movie11.jpg"><div class="overlay"><span>▶</span></div></div>
+      <div class="movie-card" onclick="playMovie('assets/movie12.mp4')"><img src="assets/movie12.jpg"><div class="overlay"><span>▶</span></div></div>
+      <div class="movie-card" onclick="playMovie('assets/movie13.mp4')"><img src="assets/movie13.jpg"><div class="overlay"><span>▶</span></div></div>
+      <div class="movie-card" onclick="playMovie('assets/movie14.mp4')"><img src="assets/movie14.jpg"><div class="overlay"><span>▶</span></div></div>
+      <div class="movie-card" onclick="playMovie('assets/movie15.mp4')"><img src="assets/movie15.jpg"><div class="overlay"><span>▶</span></div></div>
+      <div class="movie-card" onclick="playMovie('assets/movie16.mp4')"><img src="assets/movie16.jpg"><div class="overlay"><span>▶</span></div></div>
+      <div class="movie-card" onclick="playMovie('assets/movie17.mp4')"><img src="assets/movie17.jpg"><div class="overlay"><span>▶</span></div></div>
+      <div class="movie-card" onclick="playMovie('assets/movie18.mp4')"><img src="assets/movie18.jpg"><div class="overlay"><span>▶</span></div></div>
+      <div class="movie-card" onclick="playMovie('assets/movie19.mp4')"><img src="assets/movie19.jpg"><div class="overlay"><span>▶</span></div></div>
+      <div class="movie-card" onclick="playMovie('assets/movie20.mp4')"><img src="assets/movie20.jpg"><div class="overlay"><span>▶</span></div></div>
+    </div>
+  </section>
+
+  <!-- === Comedy === -->
+  <section class="movie-section">
+    <h2>Comedy</h2>
+    <div class="movie-row">
+      <div class="movie-card" onclick="playMovie('assets/movie21.mp4')"><img src="assets/movie21.jpg"><div class="overlay"><span>▶</span></div></div>
+      <div class="movie-card" onclick="playMovie('assets/movie22.mp4')"><img src="assets/movie22.jpg"><div class="overlay"><span>▶</span></div></div>
+      <div class="movie-card" onclick="playMovie('assets/movie23.mp4')"><img src="assets/movie23.jpg"><div class="overlay"><span>▶</span></div></div>
+      <div class="movie-card" onclick="playMovie('assets/movie24.mp4')"><img src="assets/movie24.jpg"><div class="overlay"><span>▶</span></div></div>
+      <div class="movie-card" onclick="playMovie('assets/movie25.mp4')"><img src="assets/movie25.jpg"><div class="overlay"><span>▶</span></div></div>
+      <div class="movie-card" onclick="playMovie('assets/movie26.mp4')"><img src="assets/movie26.jpg"><div class="overlay"><span>▶</span></div></div>
+      <div class="movie-card" onclick="playMovie('assets/movie27.mp4')"><img src="assets/movie27.jpg"><div class="overlay"><span>▶</span></div></div>
+      <div class="movie-card" onclick="playMovie('assets/movie28.mp4')"><img src="assets/movie28.jpg"><div class="overlay"><span>▶</span></div></div>
+      <div class="movie-card" onclick="playMovie('assets/movie29.mp4')"><img src="assets/movie29.jpg"><div class="overlay"><span>▶</span></div></div>
+      <div class="movie-card" onclick="playMovie('assets/movie30.mp4')"><img src="assets/movie30.jpg"><div class="overlay"><span>▶</span></div></div>
+    </div>
+  </section>
+
+  <!-- === Modal Player === -->
+  <div id="movieModal" class="modal">
+    <span class="close" onclick="closeMovie()">&times;</span>
+    <video id="moviePlayer" controls autoplay>
+      <source src="" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <footer>
+    <p>© 2025 Netflix Clone. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
